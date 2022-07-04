@@ -1,4 +1,4 @@
-import {getRoverFromNASA, getRoverPhotosFromNASA} from "./servicesForNasaAPI";
+import {getRoverFromNASA, getRoverPhotosFromNASA} from "./NASAService";
 
 export const getRoverHandler = async (req: any, res: any) => {
     const response = await getRoverFromNASA();
